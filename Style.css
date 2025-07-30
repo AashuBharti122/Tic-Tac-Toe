@@ -37,23 +37,33 @@ body{
 }
 
 .btn1{
-    padding: 1rem;
+    padding: 0.8rem;
     font-size: 1.25rem;
     background-color: rgb(1, 42, 42);
     color: white;
+    border: 2px solid black;
     border-radius: 1rem;
-    border: none;
     margin: 2rem;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: red;
+    background-color: transparent;
 }
 
 .btn2{
-    padding: 1rem;
+    padding: 0.8rem;
     font-size: 1.25rem;
     background-color: rgb(1, 42, 42);
     color: white;
     border-radius: 1rem;
-    border: none;
+    border: 2px solid black;
     margin: 2rem;
+    cursor: pointer;
+}
+.btn2:hover{
+    color: red;
+    background-color: transparent;
 }
 
 #msg{
